@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play - Reincarnated as an Adventurer in a Text Based RPG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-image"></div>
+    <div class="content">
+        <header>
+            <h1 id="mainHeading">So you got Reincarnated as an Adventurer in a Text Based RPG?</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="PlayNow.html">Play Now</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="play">
+                <h2>Play SygRaaAuaTBRPG Now</h2>
+                <div id="character-name-input" class="button-container">
+                    <input type="text" id="character-name" placeholder="Enter your name">
+                    <button id="next-button">Next</button>
+                </div>
+                <div id="class-selection" class="button-container" style="display: none;">
+                    <h2>Select Your Class</h2>
+                    <button class="class-button" data-class="Mage">Mage</button>
+                    <button class="class-button" data-class="Monk">Monk</button>
+                    <button class="class-button" data-class="Ranger">Ranger</button>
+                    <button class="class-button" data-class="Warrior">Warrior</button>
+                </div>
+                <div id="game" style="display: none;">
+                    <div id="character-stats" class="scrollable-text"></div>
+                    <div id="enemy-stats" class="scrollable-text"></div>
+                    <div id="game-log" class="scrollable-text"></div>
+                    <div class="button-container">
+                        <button id="attack-button">Attack</button>
+                        <button id="skills-button">Skills</button>
+                        <button id="defend-button">Defend</button>
+                        <button id="clear-log-button" style="display: none;">Clear Log</button>
+                        <button id="archive-log-button">Log Archive</button>
+                    </div>
+                </div>
+                <div id="skills-menu" class="button-container" style="display: none;">
+                    <h2>Choose a Skill</h2>
+                    <button id="firebolt-skill">Firebolt</button>
+                    <!-- Additional skills can be added here -->
+                    <button id="back-button">Back</button>
+                </div>
+                <div id="log-archive" class="scrollable-text" style="display: none;">
+                    <h2>Log Archive</h2>
+                    <div id="log-archive-content"></div>
+                    <button id="back-to-game-button">Back to Game</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Matthew Lawson. All rights reserved.</p>
+            <button id="flip-button">Don't Click Me</button>
+        </footer>
+    </div>
+    <script src="buttonflip.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
