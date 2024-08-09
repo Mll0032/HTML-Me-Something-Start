@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    overflow: hidden; /* Prevent scrolling when body is upside-down */
+    overflow: hidden; 
 }
 
 h1, h2 {
@@ -14,21 +14,21 @@ h1, h2 {
 
 .bg-image {
     /* The image used */
-    background-image: url('images/Character\ and\ Goddess.png'); /* Path to your background image */
+    background-image: url('images/Character\ and\ Goddess.png'); 
     
     /* Add the blur effect */
     filter: blur(8px);
     -webkit-filter: blur(8px);
     
-    /* Full height and width */
+    
     height: 100%;
     width: 100%;
-    position: fixed; /* Fixed position to stay in place */
+    position: fixed; 
     top: 0;
     left: 0;
-    z-index: -1; /* Ensure it stays behind other content */
+    z-index: -1; 
     
-    /* Center and scale the image nicely */
+    /* Center image */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +41,7 @@ h1, h2 {
 }
 
 header {
-    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    background-color: rgba(51, 51, 51, 0.8); 
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -49,7 +49,7 @@ header {
 }
 
 nav {
-    background-color: rgba(68, 68, 68, 0.8); /* Semi-transparent background */
+    background-color: rgba(68, 68, 68, 0.8); 
     color: #fff;
     padding: 0.5rem;
     margin-bottom: 1rem;
@@ -76,9 +76,9 @@ main {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    background-color: rgba(255, 255, 255, 0.9); 
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for a lifted effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .button-container {
@@ -106,14 +106,14 @@ main {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    background-color: rgba(255, 255, 255, 0.8); 
     border-radius: 5px;
 }
 
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    background-color: rgba(51, 51, 51, 0.8); 
     color: #fff;
     margin-top: 1rem;
 }
@@ -159,6 +159,6 @@ footer {
 .carousel-inner img {
     width: 100%;
     height: auto;
-    max-height: 600px; /* Set a max height for the images */
-    object-fit: contain; /* Ensure the images maintain their aspect ratio */
+    max-height: 600px; 
+    object-fit: contain; 
 }
